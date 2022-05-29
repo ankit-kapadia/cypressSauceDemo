@@ -1,0 +1,18 @@
+{
+    "chromeWebSecurity": false,
+    "env" : {
+        "url": "https://www.saucedemo.com/",
+        "user_name": "performance_glitch_user",
+        "password": "secret_sauce"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+    },
+    "video": false,
+    "projectId": "123456"
+}
